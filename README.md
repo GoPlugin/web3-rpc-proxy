@@ -1,9 +1,3 @@
-<div align="center" id="top">
-
-&#xa0;
-
-  <img alt="logo" width="80" height="80" style="border-radius: 20px" src="docs/icon.png"/>
-</div>
 <h1 align="center">Web3 RPC Proxy</h1>
 
 
@@ -68,14 +62,6 @@ Modify system configuration using the following environment variables:
 - Redis Used for distributed rate limiting of Tenant in the service
 - Amqp, optional After completion, the request information will be published to the mq
 
-### Grafana Reports
-Import [the Grafana template file](config/grafana.json)
-
-![Grafana1](docs/grafana1.jpg)
-![Grafana2](docs/grafana2.jpg)
-![Grafana3](docs/grafana3.png)
-
-<br>
 
 ## :bulb: Usage
 The usage is straightforward, just make a JSON-RPC request to a specific chain.
@@ -157,10 +143,6 @@ The project uses the following technologies:
 - [PostgreSQL](https://www.postgresql.org)
 
 <br>
-
-### Architecture
-
-![architecture](docs/architecture.png)
 
 ## :speech_balloon: FAQs
 
