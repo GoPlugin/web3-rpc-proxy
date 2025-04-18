@@ -181,8 +181,6 @@ Write tests: Write and optimize test cases for the project.
 
 If you want to show appreciation or support the continued development of the Web3 RPC Proxy project, you can do so by:
 
-Giving the project a GitHub Star. Supporting the project by donating a cup of tea.
-
 <br>
 
 ## :memo: License
