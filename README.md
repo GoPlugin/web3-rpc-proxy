@@ -163,6 +163,8 @@ Write tests: Write and optimize test cases for the project.
 
 If you want to show appreciation or support the continued development of the Web3 RPC Proxy project, you can do so by:
 
+Huge thanks to the author @DODOEX 
+
 <br>
 
 ## :memo: License
