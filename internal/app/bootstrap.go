@@ -21,7 +21,6 @@ import (
 )
 
 func StartCluster() {
-	// 注册指标
 	prometheus.MustRegister(utils.TotalRequests)
 	prometheus.MustRegister(utils.RequestDurations)
 	prometheus.MustRegister(utils.TotalEndpoints)
@@ -90,7 +89,6 @@ func InitCluster(
 				}
 				i++
 
-				// 监控 endpoints.yaml 配置文件
 				if conf.Exists(shared.KoanfEtcdEndpointsConfigToken) {
 					watcher.OnChanaged(conf.String(shared.KoanfEtcdEndpointsConfigToken), func(path string, value []byte) {
 						var (
