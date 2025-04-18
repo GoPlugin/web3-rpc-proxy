@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/DODOEX/web3rpcproxy/utils/config"
+	"github.com/GoPlugin/web3rpcproxy/utils/config"
 	kYaml "github.com/knadh/koanf/parsers/yaml"
 	"github.com/knadh/koanf/providers/env"
 	"github.com/knadh/koanf/providers/file"

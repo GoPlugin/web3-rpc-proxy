@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DODOEX/web3rpcproxy/utils/helpers"
+	"github.com/GoPlugin/web3rpcproxy/utils/helpers"
 	"github.com/duke-git/lancet/v2/slice"
 )
 

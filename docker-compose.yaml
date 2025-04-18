@@ -30,7 +30,7 @@ services:
 
   # Provides the free web3 rpc
   provider:
-    image: dodozoo/we3-rpc-provider:v1.0.0
+    image: lokesh2cool/web3-rpc-provider:tag
     networks: [app-bridge]
     ports: [3000:3000]
 

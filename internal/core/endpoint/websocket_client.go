@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DODOEX/web3rpcproxy/internal/common"
-	"github.com/DODOEX/web3rpcproxy/internal/core/rpc"
-	"github.com/DODOEX/web3rpcproxy/utils/helpers"
+	"github.com/GoPlugin/web3rpcproxy/internal/common"
+	"github.com/GoPlugin/web3rpcproxy/internal/core/rpc"
+	"github.com/GoPlugin/web3rpcproxy/utils/helpers"
 	"github.com/duke-git/lancet/v2/slice"
 	"github.com/gorilla/websocket"
 	"github.com/rs/zerolog"
