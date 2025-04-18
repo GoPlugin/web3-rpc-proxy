@@ -42,7 +42,7 @@ $ docker build ./Dockerfile -t goplugin/web3-rpc-proxy:latest
 $ docker run -p 8080:8080 -d goplugin/web3-rpc-proxy:latest
 ```
 
-Or
+Or easiest way
 
 ```bash
 # Start the service using docker compose
