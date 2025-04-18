@@ -191,3 +191,233 @@ This project is under license from MIT. For more details, see [the LICENSE file]
 &#xa0;
 
 <div align="center"><a href="#top">Back to top</a></div>
+
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":1}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_blobBaseFee","params":[],"id":2}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":3}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_call","params":[{"from":"0x1234567890abcdef1234567890abcdef12345678","to":"0x1234567890abcdef1234567890abcdef12345678","data":"0x"},"latest"],"id":4}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":5}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_coinbase","params":[],"id":6}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_createAccessList","params":[{"from":"0x1234567890abcdef1234567890abcdef12345678","to":"0x1234567890abcdef1234567890abcdef12345678","data":"0x"},"latest"],"id":7}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_estimateGas","params":[{"from":"0x1234567890abcdef1234567890abcdef12345678","to":"0x1234567890abcdef1234567890abcdef12345678","data":"0x"},"latest"],"id":8}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_feeHistory","params":["0xa","latest",[25,50,75]],"id":9}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":10}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x1234567890abcdef1234567890abcdef12345678","latest"],"id":11}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",true],"id":12}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest",true],"id":13}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getBlockReceipts","params":["latest"],"id":14}'
+```
+
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getCode","params":["0x1234567890abcdef1234567890abcdef12345678","latest"],"id":15}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getFilterChanges","params":["0x1"],"id":16}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getFilterLogs","params":["0x1"],"id":17}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getLogs","params":[{"fromBlock":"0x1","toBlock":"latest","address":"0x1234567890abcdef1234567890abcdef12345678"}],"id":18}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getProof","params":["0x1234567890abcdef1234567890abcdef12345678",["0x0000000000000000000000000000000000000000000000000000000000000000"],"latest"],"id":19}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getStorageAt","params":["0x1234567890abcdef1234567890abcdef12345678","0x0","latest"],"id":20}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef","0x0"],"id":21}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockNumberAndIndex","params":["latest","0x0"],"id":22}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"],"id":23}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getTransactionCount","params":["0x1234567890abcdef1234567890abcdef12345678","latest"],"id":24}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"],"id":25}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getUncleCountByBlockHash","params":["0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"],"id":26}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getUncleCountByBlockNumber","params":["latest"],"id":27}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_maxPriorityFeePerGas","params":[],"id":28}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_newBlockFilter","params":[],"id":29}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_newFilter","params":[{"fromBlock":"0x1","toBlock":"latest","address":"0x1234567890abcdef1234567890abcdef12345678"}],"id":30}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_newPendingTransactionFilter","params":[],"id":31}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_sendRawTransaction","params":["0xf86c018505d21dba00830186a0941234567890abcdef1234567890abcdef1234567888082c350a0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8"],"id":32}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_sendTransaction","params":[{"from":"0x1234567890abcdef1234567890abcdef12345678","to":"0x1234567890abcdef1234567890abcdef12345678","value":"0x1","gas":"0x5208"}],"id":33}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_sign","params":["0x1234567890abcdef1234567890abcdef12345678","0x48656c6c6f776f726c64"],"id":34}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_signTransaction","params":[{"from":"0x1234567890abcdef1234567890abcdef12345678","to":"0x1234567890abcdef1234567890abcdef12345678","value":"0x1","gas":"0x5208"}],"id":35}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":36}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_uninstallFilter","params":["0x1"],"id":37}'
+```
+
+```bash 
+curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getUncleByBlockHashAndIndex","params":["0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef","0x0"],"id":38}'
+```
