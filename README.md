@@ -192,6 +192,7 @@ This project is under license from MIT. For more details, see [the LICENSE file]
 
 <div align="center"><a href="#top">Back to top</a></div>
 
+## List of API's
 
 ```bash 
 curl -X POST http://localhost:8080 \
